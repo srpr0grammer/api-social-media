@@ -5,7 +5,3 @@ app = FastAPI(
     version='0.1.0',
     description='Pamps is a posting app'
 )
-
-@app.get('/')
-async def index():
-    return {"Hello": "World"}
